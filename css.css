@@ -1,0 +1,276 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o texto */
+    background-color: rgb(0, 0, 0); /* Cor de fundo do h1 */
+    margin: 0; /* Remove todas as margens */
+    padding: 10px; /* Adiciona espaçamento interno */
+    width: 100%; /* Garante que o h1 ocupe 100% da largura */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+    color: white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte para Arial */
+}
+
+.container {
+    display: flex; /* Flexbox para alinhar itens lado a lado */
+    align-items: flex-start; /* Alinha à esquerda */
+    position: relative;
+}
+
+/* Estilo para o h1 no topo da página */
+header {
+    width: 100%; /* Garante que o header ocupe toda a largura */
+    background-color: brown; /* Cor de fundo do header */
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /* Centraliza o texto dentro do header */
+    margin: 0; /* Remove margens do h1 */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+/* Flexbox no body para centralizar o conteúdo */
+#body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Ocupa 100% da altura da janela */
+    margin: 0; /* Remove margens */
+    background-color:rgb(45, 42, 42)
+}
+
+.background-image {
+    position: fixed; /* Fixa a div de fundo */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    background-image: url('https://s2.glbimg.com/SFb_NuS-zQWCDGYqe87uaOIWSRM=/e.glbimg.com/og/ed/f/original/2022/02/01/niko-photos-tgtvxeor_rs-unsplash_HlsBODM.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Cobre toda a área do body */
+    background-position: center; /* Centraliza a imagem */
+    opacity: 0.5; /* Define a opacidade da imagem (0.0 a 1.0) */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+/* Centraliza o conteúdo da div login_conteiner */
+main {
+    flex-grow: 1; /* Faz com que o main ocupe o espaço disponível */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%; /* Garante que o main ocupe toda a largura */
+}
+
+.login_conteiner {
+    background-color: rgb(255, 255, 255); /* Cor de fundo da div principal */
+    border: 2px solid brown; /* Borda da div */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 0px; /* Espaçamento interno da div */
+    margin: 20px auto; /* Espaço ao redor e centralização da div */
+    width: 300px; /* Largura fixa da div */
+}
+
+.login_conteiner h1 {
+    width: 100%; /* Faz o h1 ocupar toda a largura */
+    text-align: center; /* Centraliza o texto */
+    background-color: brown; /* Cor de fundo do h1 */
+    color: white; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno, ajuste conforme necessário */
+    margin: 0; /* Remove todas as margens do h1 */
+}
+
+
+
+
+.login_conteiner input[type="button"] {
+    display: block; /* Torna o botão um elemento de bloco */
+    margin: 10px auto; /* Margens automáticas para centralizar */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    background-color: brown; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada do botão */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+}
+
+.cadastro_conteiner {
+    background-color: rgb(255, 255, 255); /* Cor de fundo da div principal */
+    border: 2px solid brown; /* Borda da div */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 0px; /* Espaçamento interno da div */
+    margin: 20px auto; /* Espaço ao redor e centralização da div */
+    width: 300px; /* Largura fixa da div */
+}
+
+.form-group1 {
+    display: flex; /* Flexbox para alinhar os rótulos e campos de forma consistente */
+    justify-content: space-between; /* Espaçamento entre rótulos e campos */
+    align-items: center; /* Alinha verticalmente os rótulos com os campos */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+.form-group1 label {
+    width: 120px; /* Largura fixa dos rótulos para alinhar todos de forma igual */
+    text-align: right; /* Alinha o texto dos rótulos à direita */
+    margin-right: 10px; /* Espaço entre o rótulo e o campo */
+}
+
+.form-group1 input {
+    flex: 1; /* Faz o input ocupar o restante do espaço disponível */
+    padding: 5px; /* Espaçamento interno dos campos */
+    margin-right: 30px; /* Adiciona um espaço à direita dos campos */
+}
+
+.form-group {
+    display: flex; /* Flexbox para alinhar os rótulos e campos de forma consistente */
+    justify-content: space-between; /* Espaçamento entre rótulos e campos */
+    align-items: center; /* Alinha verticalmente os rótulos com os campos */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+.form-group label {
+    width: 120px; /* Largura fixa dos rótulos para alinhar todos de forma igual */
+    text-align: right; /* Alinha o texto dos rótulos à direita */
+    margin-right: 10px; /* Espaço entre o rótulo e o campo */
+}
+
+.form-group input {
+    flex: 1; /* Faz o input ocupar o restante do espaço disponível */
+    padding: 5px; /* Espaçamento interno dos campos */
+    margin-right: 10px; /* Adiciona um espaço à direita dos campos */
+}
+
+input[type="button"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: green;
+}
+
+.imagem-container {
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o texto na vertical */
+    align-items: flex-start; /* Alinha ambos à esquerda */
+    margin-left: 1px; /* Ajuste conforme necessário */
+}
+
+.imagem {
+    width: 200px; /* Define a largura fixa */
+    height: 200px; /* Define a altura fixa */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+    margin-right: 20px; /* Espaço entre a imagem e a barra */
+    max-height: 200px; /* Mantém a altura máxima para garantir que não exceda */
+}
+
+.barra-lateral {
+    width: 5px; /* Largura da barra lateral */
+    min-width: 5px;
+    background-color: hwb(0 0% 12%); /* Cor de fundo da barra lateral */
+    height: 325px; /* Altura da barra lateral (ajuste conforme necessário) */
+    margin: 0 10px; /* Margens laterais para espaçamento */
+}
+
+.barra {
+    width: calc(100% + 20px); /* Largura da barra horizontal maior que 100% para cobrir margens */
+    height: 5px; /* Altura da barra (ajuste conforme necessário) */
+    background-color: hwb(0 0% 12%); /* Cor de fundo da barra */
+    margin-top: -5px; /* Move a barra para cima para sobrepor a barra lateral */
+    position: absolute; /* Permite sobreposição */
+    left: -10px; /* Move a barra para a esquerda */
+
+}
+
+.texto {
+    text-align: left; /* Garante que o texto fique à esquerda */
+    font-size: large;
+}
+
+#container-botoes {
+    margin-left: 19px;
+
+}
+
+input[type="button"] {
+    width: 150px; /* Define a largura fixa para todos os botões */
+    height: 30px; /* Define a altura fixa para todos os botões */
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border: none;
+    border-radius: 5px; /* (Opcional) Bordas arredondadas */
+    cursor: pointer; /* Troca o cursor para ponteiro ao passar por cima */
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+}
+
+#botao1 {
+    margin-left: 19px;
+}
+#botaoVolt {
+    width: 150px; /* Define a largura fixa para todos os botões */
+    height: 30px; /* Define a altura fixa para todos os botões */
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border: none;
+    border-radius: 5px; /* (Opcional) Bordas arredondadas */
+    cursor: pointer; /* Troca o cursor para ponteiro ao passar por cima */
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+    margin-left: 19px;
+}
+
+#botaoSemcadastro {
+    width: 120px;
+    height: 30px;
+
+}
+
+#sairUser {
+    margin-left: 19px;
+    width: 150px; /* Define a largura fixa para todos os botões */
+    height: 30px; /* Define a altura fixa para todos os botões */
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border: none;
+    border-radius: 5px; /* (Opcional) Bordas arredondadas */
+    cursor: pointer; /* Troca o cursor para ponteiro ao passar por cima */
+    margin-bottom: 10px; /* Espaçamento inferior entre os botões */
+}
+#Texto_imagem {
+    margin-left: 1px;
+}
+
+#textoRetornado {
+    margin-left: 5px;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#texto1 {
+    text-align: left;
+    margin-top: 5px;
+}
+
+body {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+body.fade-out {
+    opacity: 0;
+}
